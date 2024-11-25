@@ -17,3 +17,38 @@ Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek ini:
    ```bash
    git clone https://github.com/username/repo-name.git
    cd repo-name
+   ```
+2. **Buat dan aktifkan virtual environment (opsional tetapi disarankan)**:
+
+````bash
+python -m venv venv
+source venv/bin/activate  # Di Linux/Mac
+venv\Scripts\activate  # Di Windows
+3. **Instal Flask**:
+```bash
+pip install Flask
+4. **Instal Tailwind CSS**:
+```bash
+npm install -D tailwindcss
+5. **Instal Flowbite**:
+```bash
+npm install flowbite
+6. **Inisialisasi Tailwind CSS**:
+```bash
+npx tailwindcss init
+7. **Buat file konfigurasi Tailwind: Edit file tailwind.config.js dengan konten berikut:**:
+```bash
+  module.exports = {
+  content: [
+    "./templates/**/*.html",
+    "./static/src/**/*.js",
+    "./node_modules/flowbite/**/*.js"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [
+    require('flowbite/plugin')
+  ],
+}
+````
