@@ -20,8 +20,8 @@ Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek ini:
 2. **Buat dan aktifkan virtual environment (opsional tetapi disarankan)**:
   ```bash
   python -m venv venv
-  source venv/bin/activate  # Di Linux/Mac
-  venv\Scripts\activate  # Di Windows
+  source venv/bin/activate
+  venv/Scripts/Activate
 3. **Instal Flask**:
   ```bash
   pip install Flask
