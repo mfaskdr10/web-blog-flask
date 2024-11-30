@@ -44,13 +44,12 @@ cd flask-blog
 
 ### 3. Instal Dependensi Backend
 
-Buat dan aktifkan virtual environment:
-
-```bash
-python -m venv venv
-source venv/bin/activate  # Untuk Linux/Mac
-venv\Scripts\activate     # Untuk Windows
-```
+- Buat dan aktifkan virtual environment:
+  ```bash
+  python -m venv venv
+  source venv/bin/activate  # Untuk Linux/Mac
+  venv\Scripts\activate     # Untuk Windows
+  ```
 
 Instal dependensi Python:
 
