@@ -45,6 +45,7 @@ cd flask-blog
 ### 3. Instal Dependensi Backend
 
 - Buat dan aktifkan virtual environment:
+
   ```bash
   python -m venv venv
   source venv/bin/activate  # Untuk Linux/Mac
@@ -57,30 +58,14 @@ cd flask-blog
   ```
 
 ### 4. Setup Tailwind CSS
+
 - Instal Tailwind CSS dan dependensinya:
+
   ```bash
   npm install
   ```
+
 - Bangun file Tailwind:
   ```bash
   npx tailwindcss build src/styles.css -o static/css/main.css
   ```
-
-## 📁 Struktur Proyek
-flask-blog/
-│
-├── app/                  # Folder aplikasi utama
-│   ├── static/           # File statis (CSS, JS, gambar)
-│   ├── templates/        # Template HTML
-│   ├── __init__.py       # Inisialisasi aplikasi Flask
-│   ├── models.py         # Model database
-│   ├── routes.py         # Routing
-│   └── forms.py          # Formulir Flask-WTF
-│
-├── migrations/           # File migrasi database
-├── requirements.txt      # Dependensi Python
-├── tailwind.config.js    # Konfigurasi Tailwind CSS
-├── package.json          # Konfigurasi npm
-├── README.md             # File dokumentasi ini
-└── Dockerfile            # File untuk Docker
-
