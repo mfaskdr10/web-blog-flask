@@ -90,6 +90,7 @@ def create_page():
       title = request.form.get('title')
       description = request.form.get('description')
       content = request.form.get('content')
+      
       db = Database
       conn = db.connect_to_database()
       cursor = conn.cursor()

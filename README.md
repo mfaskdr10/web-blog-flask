@@ -1,5 +1,7 @@
 # Flask Blog Website
 
+![Alt Text](/static/img/ss.png)
+
 Sebuah proyek website blog yang dibuat menggunakan **Flask** untuk backend, **Tailwind CSS** untuk styling, dan **Material UI Flowbite** untuk komponen UI modern dan responsif.
 
 ## 🎯 Fitur
@@ -28,6 +30,7 @@ Sebuah proyek website blog yang dibuat menggunakan **Flask** untuk backend, **Ta
 ### 1. Prasyarat
 
 Pastikan Anda memiliki:
+
 - Python 3.8 atau lebih baru
 - Node.js & npm (untuk mengelola Tailwind CSS)
 - Virtual environment (opsional, tetapi disarankan)
@@ -37,3 +40,4 @@ Pastikan Anda memiliki:
 ```bash
 git clone https://github.com/username/flask-blog.git
 cd flask-blog
+```
