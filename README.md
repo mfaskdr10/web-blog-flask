@@ -36,11 +36,12 @@ Pastikan Anda memiliki:
 - Virtual environment (opsional, tetapi disarankan)
 
 ### 2. Clone Repository
+- Clone dari repository ini ke direktori Anda menggunakan Git: `git clone https://github.com/username/flask-blog.git`
 
-```bash
-git clone https://github.com/username/flask-blog.git
-cd flask-blog
-```
+  ```bash
+  git clone https://github.com/username/flask-blog.git
+  cd flask-blog
+  ```
 
 ### 3. Instal Dependensi Backend
 
