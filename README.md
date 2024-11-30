@@ -29,7 +29,7 @@ Sebuah proyek website blog yang dibuat menggunakan **Flask** untuk backend, **Ta
 
 ### 1. Prasyarat
 
-Pastikan Anda memiliki:
+  Pastikan Anda memiliki:
 
 - Python 3.8 atau lebih baru
 - Node.js & npm (untuk mengelola Tailwind CSS)
