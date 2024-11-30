@@ -37,10 +37,10 @@ Pastikan Anda memiliki:
 
 ### 2. Clone Repository
 
-    ```bash
-    git clone https://github.com/username/flask-blog.git
-    cd flask-blog
-    ```
+```bash
+git clone https://github.com/username/flask-blog.git
+cd flask-blog
+```
 
 ### 3. Instal Dependensi Backend
 
@@ -51,8 +51,36 @@ Pastikan Anda memiliki:
   venv\Scripts\activate     # Untuk Windows
   ```
 
-Instal dependensi Python:
+- Instal dependensi Python:
+  ```bash
+  pip install -r requirements.txt
+  ```
 
-```bash
-pip install -r requirements.txt
-```
+### 4. Setup Tailwind CSS
+- Instal Tailwind CSS dan dependensinya:
+  ```bash
+  npm install
+  ```
+- Bangun file Tailwind:
+  ```bash
+  npx tailwindcss build src/styles.css -o static/css/main.css
+  ```
+
+## 📁 Struktur Proyek
+flask-blog/
+│
+├── app/                  # Folder aplikasi utama
+│   ├── static/           # File statis (CSS, JS, gambar)
+│   ├── templates/        # Template HTML
+│   ├── __init__.py       # Inisialisasi aplikasi Flask
+│   ├── models.py         # Model database
+│   ├── routes.py         # Routing
+│   └── forms.py          # Formulir Flask-WTF
+│
+├── migrations/           # File migrasi database
+├── requirements.txt      # Dependensi Python
+├── tailwind.config.js    # Konfigurasi Tailwind CSS
+├── package.json          # Konfigurasi npm
+├── README.md             # File dokumentasi ini
+└── Dockerfile            # File untuk Docker
+
