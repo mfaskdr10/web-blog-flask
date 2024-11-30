@@ -37,10 +37,10 @@ Pastikan Anda memiliki:
 
 ### 2. Clone Repository
 
-```bash
-git clone https://github.com/username/flask-blog.git
-cd flask-blog
-```
+    ```bash
+    git clone https://github.com/username/flask-blog.git
+    cd flask-blog
+    ```
 
 ### 3. Instal Dependensi Backend
 
